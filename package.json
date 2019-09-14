@@ -1,0 +1,32 @@
+{
+  "name": "react-mgmt",
+  "version": "1.0.0",
+  "description": "State management tool for modern React.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "./node_modules/.bin/babel src --out-file index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nicoglennon/react-mgmt.git"
+  },
+  "author": "Nico Glennon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nicoglennon/react-mgmt/issues"
+  },
+  "homepage": "https://github.com/nicoglennon/react-mgmt#readme",
+  "peerDependencies": {
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.6.0",
+    "@babel/core": "^7.6.0",
+    "@babel/preset-env": "^7.6.0",
+    "@babel/preset-react": "^7.0.0",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0"
+  }
+}
