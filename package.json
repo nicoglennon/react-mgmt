@@ -1,6 +1,6 @@
 {
   "name": "react-mgmt",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "State management tool for modern React.",
   "main": "index.js",
   "scripts": {
