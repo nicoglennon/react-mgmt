@@ -102,3 +102,7 @@ class ExampleButton extends React.Component {
   }
 }
 ```
+
+## Credits
+
+This package is my spin on a [Medium article](https://medium.com/simply/state-management-with-react-hooks-and-context-api-at-10-lines-of-code-baf6be8302c) by Luke Hall (@lukashala).
