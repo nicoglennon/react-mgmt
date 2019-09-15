@@ -1,6 +1,8 @@
-# react-mgmt
+# 💊 react-mgmt
 
-Tiny state management tool for modern React (^16.8.0).
+![version 1.0.1](https://img.shields.io/github/package-json/v/nicoglennon/react-mgmt.svg)
+
+A state management trip for React.
 
 ## Getting Started
 
