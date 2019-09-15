@@ -3,7 +3,7 @@
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.useMgmt = exports.MgmtProvider = exports.MgmtContext = void 0;
+exports.MgmtConsumer = exports.useMgmt = exports.MgmtProvider = exports.MgmtContext = void 0;
 
 var _react = _interopRequireWildcard(require("react"));
 
@@ -31,3 +31,5 @@ var useMgmt = function useMgmt() {
 };
 
 exports.useMgmt = useMgmt;
+var MgmtConsumer = MgmtContext.Consumer;
+exports.MgmtConsumer = MgmtConsumer;
