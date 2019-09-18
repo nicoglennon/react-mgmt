@@ -65,10 +65,11 @@ const ExampleApp = () => {
 
 Wrap your top-level component with `MgmtProvider` like you would with `Context.Provider`.
 
-| Prop           | Description                               |
-| -------------- | ----------------------------------------- |
-| `reducer`      | Root reducer function.                    |
-| `initialState` | Initial state object of your application. |
+| Prop           | Description                                       |
+| -------------- | ------------------------------------------------- |
+| `reducer`      | Root reducer function.                            |
+| `initialState` | Initial state object of your application.         |
+| `actions`      | Used for middleware -- Documentation coming soon! |
 
 ### `useMgmt` (Hook)
 
@@ -104,6 +105,10 @@ class ExampleButton extends React.Component {
   }
 }
 ```
+
+## Todos
+
+Documentation for middleware support (`mgmtActions`) coming soon!
 
 ## Credits
 
